@@ -30,6 +30,3 @@ jobs:
           DB_USERNAME: f0453555_newspaper
           DB_PASSWORD: EngidRWv
         run: vendor/bin/phpunit
-      - name: Make migrations
-        run: php artisan migrate
-
